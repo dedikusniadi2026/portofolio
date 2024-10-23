@@ -161,7 +161,7 @@ const Contact = () => {
             className="underline text-Snow"
             target="_blank"
             rel="noopener noreferrer"
-            href="https://github.com/osamajavaid/portfolio"
+            href="https://github.com/dedikusniadi2026/portofolio"
           >
             Be the one to integrate this!
           </a>

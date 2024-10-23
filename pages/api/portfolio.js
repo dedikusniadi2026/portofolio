@@ -3,7 +3,7 @@ const portfolio = [
     id: 0,
     projectName: "Telin",
     url: "#",
-    image: "projects/telin.png",
+    image: "projects/noimage.png",
     projectDetail: "wa chat boot",
     technologiesUsed: [
       {
