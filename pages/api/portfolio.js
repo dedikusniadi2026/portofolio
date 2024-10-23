@@ -203,8 +203,8 @@ const portfolio = [
   {
     id: 2,
     projectName: "Ayo Jakarta",
-    url: "#",
-    image: "projects/noimage.png",
+    url: "https://play.google.com/store/apps/details?id=com.promedia.ayojakarta",
+    image: "projects/ayo.jpg",
     projectDetail: "mobile apps android and IOS in Ayo Jakarta",
     technologiesUsed: [
       {
@@ -221,27 +221,94 @@ const portfolio = [
       },
     ],
   },
-  // {
-  //     id: 2,
-  //     projectName: "Culyte",
-  //     url: "https://culyte.com",
-  //     image: "projects/culyte.png",
-  //     projectDetail: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam corrupti aut veritatis, adipisci natus optio dolores cum rem? Aut perferendis fugit, eos rerum totam aspernatur iure alias temporibus ipsa perspiciatis!",
-  //     technologiesUsed: [
-  //         {
-  //             tech: "ReactJS"
-  //         },
-  //         {
-  //             tech: "NodeJS"
-  //         },
-  //         {
-  //             tech: "Ant Design"
-  //         },
-  //         {
-  //             tech: "TailwindCSS"
-  //         },
-  //     ]
-  // },
+
+  {
+    id: 3,
+    projectName: "Gramedia Writing Project",
+    url: "https://gwp.id",
+    image: "projects/gramedia.png",
+    projectDetail: "web apps for writing ebook in gramedia",
+    technologiesUsed: [
+      {
+        tech: "Angular 8",
+      },
+      {
+        tech: "codeigniter",
+      },
+      {
+        tech: "REST API's",
+      },
+      {
+        tech: "Angular material",
+      },
+    ],
+  },
+
+  {
+    id: 4,
+    projectName: "E-paper Danone",
+    url: "https://client.sibertama.com/danone-magazine/elina/april-mei-2018-en/danone-elina-april-mei-2018-en.html",
+    image: "projects/danone.png",
+    projectDetail: "web apps in e-paper danone",
+    technologiesUsed: [
+      {
+        tech: "javascript",
+      },
+      {
+        tech: "html 5",
+      },
+      {
+        tech: "css",
+      },
+      {
+        tech: "jquery",
+      },
+    ],
+  },
+
+  {
+    id: 5,
+    projectName: "E-paper Aqua",
+    url: "https://client.sibertama.com/danone-magazine/aqualita/edisi01/indo/index.html",
+    image: "projects/aqua.png",
+    projectDetail: "web apps in e-paper aqua",
+    technologiesUsed: [
+      {
+        tech: "javascript",
+      },
+      {
+        tech: "html 5",
+      },
+      {
+        tech: "css",
+      },
+      {
+        tech: "jquery",
+      },
+    ],
+  },
+
+  {
+    id: 6,
+    projectName: "koran bisnis",
+    url: "https://koran.bisnis.com",
+    image: "projects/koran.png",
+    projectDetail: "web apps in koran bisnis",
+    technologiesUsed: [
+      {
+        tech: "codeigniter 3",
+      },
+      {
+        tech: "html",
+      },
+      {
+        tech: "css",
+      },
+      {
+        tech: "jquery",
+      },
+    ],
+  },
 ];
 export default function handler(req, res) {
   res.status(200).json(portfolio);
